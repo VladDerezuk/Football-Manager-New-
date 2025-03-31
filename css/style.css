@@ -23,10 +23,18 @@ h1{
 }
 .flex-between {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .header{
     padding: 25px 0;
+}
+.imge{
+    width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    object-position: 75%;
+    vertical-align: bottom;
 }
 .logo{
     column-gap: 34px;
@@ -115,4 +123,20 @@ h1{
 .bottom-line p{
     font-size: 14px;
     color: #fff;
+}
+@media screen and (min-width: 768px) {
+    .flex-between {
+        justify-content: space-between;
+    }
+    .main{
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width: 621px) {
+    .logo{
+        text-align: left;
+    }
+    .contacts{
+        text-align: right;
+    }
 }
