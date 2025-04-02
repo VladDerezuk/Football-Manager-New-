@@ -18,13 +18,16 @@
   .container {
     background-color: #fff;
   }
+  .baller{
+    column-gap;
+  }
   .main {
     padding: 15rem 0;
   }
   .logo p {
-    font-size: 14rem;
+    font-size: 19rem;
     color: #5a5a5a;
-    padding-left: 7rem;
+    padding-left: 12rem;
   }
   .logo b {
     font-size: 24rem;
@@ -90,7 +93,7 @@
     padding-bottom: 28rem;
   }
   .footballpartners{
-    min-width: 300rem;
+    min-width: 100%;
   }
   .partneri {
     width: 100%;
@@ -160,8 +163,8 @@
     }
   }
   @media screen and (min-width: 425px) {
-    .imge{
-
+    .logo p{
+      margin-bottom: 20rem;
     }
   }
   @media screen and (min-width: 520px) {
