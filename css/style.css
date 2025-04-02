@@ -93,6 +93,7 @@
     min-width: 300rem;
   }
   .partneri {
+    width: 100%;
     background-color: #39930d;
     font-size: 15rem;
     text-transform: uppercase;
@@ -146,20 +147,29 @@
     padding: 10px 0;
   }
   .items-center {
+    justify-content: space-around;
     align-items: center;
   }
   @media screen and (max-width: 1024px) {
     .imge p {
-      width: 100%;
+      width: 48%;
     }
     .mainkartinki {
       align-items: center;
       gap: 10px;
     }
   }
+  @media screen and (min-width: 425px) {
+    .imge{
+
+    }
+  }
   @media screen and (min-width: 520px) {
     .flex-between {
         justify-content: space-between;
+    }
+    .imge{
+      width: 100%;
     }
     .main {
         flex-wrap: nowrap;
@@ -171,9 +181,6 @@
     }
   }
   @media screen and (min-width: 768px) {
-    html {
-      font-size: 1px;
-    }
     .footballpartners{
       width: 100%;
     }
@@ -183,7 +190,7 @@
   }
   @media screen and (min-width: 1024px) {
     html {
-        font-size: 1px;
+        font-size: 1.2px;
     }
     .imge img {
       max-height: 140px;
@@ -191,6 +198,7 @@
     .flex-between {
       flex-wrap: nowrap;
     }
+    
     .inf {
       padding-left: 18px; 
     }
@@ -199,15 +207,21 @@
     .imge img {
       max-height: 200px;
     }
+    .baller{
+      min-width: 100px;
+    }
     html {
-        font-size: 1.2px;
+        font-size: 1.6px;
     }
   }
   @media screen and (min-width: 2560px) {
     .imge img {
       max-height: 300px;
     }
+    .baller{
+      min-width: 100px;
+    }
     html {
-        font-size: 2px;
+        font-size: 2.4px;
     }
   }
