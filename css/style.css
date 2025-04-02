@@ -18,9 +18,6 @@
   .container {
     background-color: #fff;
   }
-  .baller{
-    column-gap;
-  }
   .main {
     padding: 15rem 0;
   }
@@ -93,10 +90,9 @@
     padding-bottom: 28rem;
   }
   .footballpartners{
-    min-width: 100%;
+    width: 100%;
   }
   .partneri {
-    width: 100%;
     background-color: #39930d;
     font-size: 15rem;
     text-transform: uppercase;
@@ -159,7 +155,6 @@
     }
     .mainkartinki {
       align-items: center;
-      gap: 10px;
     }
   }
   @media screen and (min-width: 425px) {
@@ -185,7 +180,6 @@
   }
   @media screen and (min-width: 768px) {
     .footballpartners{
-      width: 100%;
     }
     .imge p {
       width: 100%;
@@ -201,7 +195,9 @@
     .flex-between {
       flex-wrap: nowrap;
     }
-    
+    .items-center {
+      align-items: center;
+    }
     .inf {
       padding-left: 18px; 
     }
@@ -221,8 +217,15 @@
     .imge img {
       max-height: 300px;
     }
+    .items-center {
+      align-items: center;
+    }
     .baller{
       min-width: 100px;
+    }
+    .footer {
+      background-color: #39930d;
+      padding: 5rem;
     }
     html {
         font-size: 2.4px;
