@@ -4,7 +4,7 @@
     padding: 0;
   }
   html {
-    font-size: 1px;
+    font-size: 0.8px;
   }
   body {
     background-color: #f3f3f3;
@@ -228,6 +228,6 @@
       padding: 5rem;
     }
     html {
-        font-size: 2.4px;
+        font-size: 1.8px;
     }
   }
