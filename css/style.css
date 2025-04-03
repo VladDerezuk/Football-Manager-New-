@@ -187,7 +187,7 @@
   }
   @media screen and (min-width: 1024px) {
     html {
-        font-size: 1.2px;
+        font-size: 1.0px;
     }
     .imge img {
       max-height: 140px;
@@ -207,10 +207,10 @@
       max-height: 200px;
     }
     .baller{
-      min-width: 100px;
+      min-width: 50px;
     }
     html {
-        font-size: 1.6px;
+        font-size: 1.4x;
     }
   }
   @media screen and (min-width: 2560px) {
@@ -228,6 +228,6 @@
       padding: 5rem;
     }
     html {
-        font-size: 1.8px;
+        font-size: 1.6px;
     }
   }
