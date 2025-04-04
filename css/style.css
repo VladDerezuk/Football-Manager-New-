@@ -154,6 +154,7 @@
       width: 48%;
     }
     .mainkartinki {
+      row-gap: 13px;
       align-items: center;
     }
   }
